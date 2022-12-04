@@ -1,12 +1,4 @@
-using System;
-
-namespace HelloWorld
-{
-  class Program
-  {
-    static void Main(string[] args)
-    {
-      ConsoleWriteLine("Hello World!");    
-    }
-  }
-}
+string firstName = "John "
+string lastName = "Doe"
+string fullName = firstName + lastName;
+Console.WriteLine(fullName);
